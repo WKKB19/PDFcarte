@@ -4,9 +4,9 @@ document.getElementById("date").textContent =
 
 document
 .getElementById("download-btn")
-.addEventListener("click", function () {
+.addEventListener("click", () => {
     document.getElementById("download-btn").style.visibility = "hidden";
-    setTimeout(function () {
+    setTimeout(() => {
         document.getElementById("download-btn").style.visibility = "visible";
     }, 2000);
     const element = document.querySelector(".container");
